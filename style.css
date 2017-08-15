@@ -12,6 +12,11 @@ h1 {
     margin: auto 0;
     background-image: url(images/the-flatiron-building.png);
     list-style: none;
+    padding: 2%;
+}
+
+.hero ul {
+    padding-left: 0;
 }
 
 .hero li {
