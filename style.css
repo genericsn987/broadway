@@ -5,7 +5,6 @@
 
 h1 {
     font-size: 70px;
-    font-weight: bold;
 }
 
 .nav {
@@ -14,7 +13,11 @@ h1 {
     margin: auto 0;
 }
 
-h1, .nav {
+h1 {
+    clear:both;
+}
+
+h1, .nav, footer h2, #copyright {
     color: white;
 }
 
@@ -22,14 +25,24 @@ h2 {
     font-size: 32px;
 }
 
-h3 {
+h3, footer h2 {
     font-size: 23px;
 }
 
-h2, h3 {
+h1, h2, h3, footer h2 {
     font-weight: bold;
 }
 
 p {
     font-size: 14px;
+}
+
+#copyright {
+    font-size: 11px;
+    background-color: dimgray;
+    text-align:left;
+}
+
+#copyrightLinks {
+    float: left;
 }
