@@ -1,4 +1,4 @@
-* {
+body {
     text-align: center;
     font-family: Helvetica;
 }
@@ -9,12 +9,7 @@ h1 {
 
 .nav {
     font-size: 18px;
-    float: left;
     margin: auto 0;
-}
-
-h1 {
-    clear:both;
 }
 
 h1, .nav, footer h2, #copyright {
@@ -41,8 +36,13 @@ p {
     font-size: 11px;
     background-color: dimgray;
     text-align:left;
+
 }
 
-#copyrightLinks {
-    float: left;
+#copyrightLinks{
+    float:left;
+}
+
+.nav ul li, #copyright ul li {
+        display:inline;
 }
