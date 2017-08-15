@@ -7,9 +7,15 @@ h1 {
     font-size: 70px;
 }
 
-.nav {
+.hero {
     font-size: 18px;
     margin: auto 0;
+    background-image: url(images/the-flatiron-building.png);
+    list-style: none;
+}
+
+.hero li {
+    display:inline;
 }
 
 h1, .nav, footer h2, #copyright {
@@ -36,13 +42,9 @@ p {
     font-size: 11px;
     background-color: dimgray;
     text-align:left;
-
 }
 
-#copyrightLinks{
-    float:left;
-}
-
-.nav ul li, #copyright ul li {
-        display:inline;
+#copyright a {
+    font-size: 14px;
+    color: white;
 }
