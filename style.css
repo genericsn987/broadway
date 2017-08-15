@@ -22,7 +22,7 @@ h1 {
     display:inline;
 }
 
-h1, .nav, footer h2, #copyright {
+h1, .nav, #designedIn, #copyright {
     color: white;
 }
 
@@ -30,19 +30,19 @@ h2 {
     font-size: 32px;'
 }
 
-footer h2 {
+#designedIn {
     padding: 2%;
 }
 
-.hero, footer h2 {
+.hero, #designedIn {
     background-image: url(images/the-flatiron-building.png);
 }
 
-h3, footer h2 {
+h3, #designedIn {
     font-size: 23px;
 }
 
-h1, h2, h3, footer h2 {
+h1, h2, h3, #designedIn {
     font-weight: bold;
 }
 
