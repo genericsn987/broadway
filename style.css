@@ -6,12 +6,30 @@
 h1 {
     font-size: 70px;
     font-weight: bold;
-    color: white;
 }
 
 .nav {
     font-size: 18px;
-    color: white;
     float: left;
     margin: auto 0;
+}
+
+h1, .nav {
+    color: white;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 23px;
+}
+
+h2, h3 {
+    font-weight: bold;
+}
+
+p {
+    font-size: 14px;
 }
